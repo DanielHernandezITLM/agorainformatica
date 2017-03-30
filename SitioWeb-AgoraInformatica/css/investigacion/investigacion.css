@@ -1,0 +1,45 @@
+.container{
+    height: 80%;
+    width: 100%;
+}
+#selector{
+    margin-top: 40px;
+    margin-left: 45%;
+    height: 500px;
+    width: 500px;
+    border: 50px solid rgba(0,0,0,0.5); 
+    border-radius: 50%;
+box-shadow: 0px 0px 38px 29px rgba(0,0,0,0.75);
+}
+#selector img{
+    position: absolute;
+    visibility: hidden;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+#areapart{
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+    background: rgba(0,0,0,0.5);
+    box-shadow: -29px 36px 56px 9px rgba(0,0,0,0.81);
+    float: left;
+    margin-top: 100px;
+    margin-left: 15%;
+}
+#areapart a{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bolder;
+}
+#areapart ul{
+    display: inline-block;
+    list-style: none;
+    overflow: hidden;
+}
+#areapart li{
+    margin-top: 30px;
+}

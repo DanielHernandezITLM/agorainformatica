@@ -35,7 +35,7 @@ footer {
     font-size: 17px;
     font-weight: bolder;
 }
-ul {
+.portada ul {
     background: rgba(0, 0, 0, 0.5);
     list-style-type: none;
     margin: 0;
@@ -44,16 +44,17 @@ ul {
 
 }
 
-li {
+.portada li {
     float: left;
+    
 }
 
 li a, .dropbtn {
-    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    display: inline-block;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
