@@ -31,13 +31,12 @@
     display: block;
     position: relative;
     margin: auto;
-    background-image: url(../imagenes/index/QuienessomosBLURB&W.jpg);
+    background-image: url(../imagenes/index/QuienessomosBLURB_W.jpg);
     background-size: cover;
     background-position: center;
 }
 #personal:hover{
     cursor: pointer;
-    filter: blur(0);
     transition: .3s;
     background-image: url(../imagenes/index/Quienessomos.jpg);
     
@@ -48,12 +47,11 @@
     display: block;
     position: relative;
     margin: auto;
-    background-image: url(../imagenes/index/noticiasBLURB&W.jpg);
+    background-image: url(../imagenes/index/noticiasBLURB_W.jpg);
     background-size: cover;
 }
 #noticias:hover{
     cursor: pointer;
-    filter: blur(0);
     transition: .3s;
     background-image: url(../imagenes/index/noticias2.jpg);
     
@@ -63,13 +61,12 @@
     display: block;
     position: relative;
     margin: auto;
-    background-image: url(../imagenes/index/Investigaci%C3%B3nBLURB&W.jpg);
+    background-image: url(../imagenes/index/Investigaci%C3%B3nBLURB_W.jpg);
     background-size: cover;
     background-position: center;
 }
 #investigacion:hover{
     cursor: pointer;
-    filter: blur(0);
     transition: .3s;
     background-image: url(../imagenes/index/Investigaci%C3%B3n.jpg);
     
